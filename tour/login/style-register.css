@@ -1,0 +1,137 @@
+.form-1 {
+    height: 500px;
+    width: 400px;
+    background: #ffffff;
+    position: absolute;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
+    top: 100px;
+    left: 700px;
+    border-radius: 10px;
+}
+
+body {
+    background: rgba(100, 250, 100, 0.25);
+}
+
+.form-2 h2 {
+    margin-top: 10px;
+}
+
+.form .inputuser {
+    font-family: "Roboto", sans-serif;
+    outline: 2px;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    top: 100px;
+    border-radius: 5px;
+}
+
+.form label {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: green;
+}
+
+form {
+    margin: 20px;
+}
+
+.form-2 .registration-form {
+    display: none;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    margin: 20px 0 0 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#sign-up {
+    font-family: "Roboto", sans-serif;
+    background: #ffffff;
+    width: 80px;
+    height: 30px;
+    border: 1px solid rgba(10, 10, 10, 0.25);
+    padding: 2px;
+    top: 150px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 15px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#sign-up:hover {
+    border: 1px solid #4CAF50;
+}
+
+#sign-up a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+form p {
+    margin-bottom: 0;
+    font-size: 17px;
+    margin-left: 80px;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #43A047;
+}
+
+.form .inputuser:hover {
+    border: 1px solid green;
+}
+
+.user {
+    top: 700px;
+}
+
+#register {
+    font-family: "Roboto", sans-serif;
+    background: #ffffff;
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba(10, 10, 10, 0.25);
+    padding: 2px;
+    top: 150px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 15px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#register:hover {
+    border: 1px solid #4CAF50;
+}
